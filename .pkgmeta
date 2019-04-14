@@ -1,0 +1,5 @@
+package-as: DBM-SoundEventsPack
+enable-nolib-creation: no
+
+move-folders:
+    DBM-SoundEventsPack/DBM-SoundEventsPack: DBM-SoundEventsPack
