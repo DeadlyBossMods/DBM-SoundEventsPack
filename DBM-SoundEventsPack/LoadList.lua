@@ -179,7 +179,7 @@ function DBMMPSoundEventsPack() -- Register Music to DBM.Music Table
 		text	= "Blakbyrd",
 		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Blackbyrd.ogg"
 	})
-	
+
 	-- Dungeon BGM Table
 	if DBM.DungeonMusic then
 		insert(DBM.DungeonMusic, {
