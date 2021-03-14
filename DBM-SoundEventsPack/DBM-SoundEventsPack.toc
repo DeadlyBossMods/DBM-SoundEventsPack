@@ -2,7 +2,7 @@
 ## Interface: 90005
 #@end-retail@
 #@non-retail@
-# ## Interface: 11305
+# ## Interface: 11306
 #@end-non-retail@
 ## Title:|cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r |cff69ccf0Sound Events Pack|r
 ## DefaultState: enabled
@@ -16,5 +16,6 @@
 ## X-DBM-MusicPack: 1
 ## X-DBM-MusicPack-GlobalName: DBMMPSoundEventsPack
 ## X-Curse-Project-ID: 289311
+## X-Wago-ID: qv63WD6b
 
 LoadList.lua
