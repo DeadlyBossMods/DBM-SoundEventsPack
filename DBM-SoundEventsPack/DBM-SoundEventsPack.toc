@@ -8,6 +8,7 @@
 ## RequiredDeps: DBM-Core
 ## Author: MysticalOS, Pardua, Cigawoot
 ## Version: @project-version@
+## IconTexture: Interface\AddOns\DBM-Core\textures\dbm_airhorn
 ## X-DBM-VictoryPack: 1
 ## X-DBM-VictoryPack-GlobalName: DBMVPSoundEventsPack
 ## X-DBM-DefeatPack: 1
