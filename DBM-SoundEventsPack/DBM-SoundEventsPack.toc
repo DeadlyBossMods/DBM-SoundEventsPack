@@ -3,7 +3,7 @@
 ## Interface-BCC: 20504
 ## Interface-Wrath: 30402
 ## Title:|cffffe00a<|r|cffff7d0aDBM Media|r|cffffe00a>|r |cff308530Sound Events Pack|r
-## Title-ruRU:|cffffe00a<|r|cffff7d0aDBM Media|r|cffffe00a>|r |cff308530Пакет звуковых событий|r
+## Title-ruRU:|cffffe00a<|r|cffff7d0aDBM Медиа|r|cffffe00a>|r |cff308530Пакет звуковых событий|r
 ## DefaultState: enabled
 ## RequiredDeps: DBM-Core
 ## Author: MysticalOS, Pardua, Cigawoot
