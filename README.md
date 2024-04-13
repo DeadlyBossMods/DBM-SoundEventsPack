@@ -1,3 +1,6 @@
+<p><img src="http://mysticalos.com/images/DBM/support_on_patreon.png" width="408" height="80" /></p>
+<p><a href="https://www.patreon.com/deadlybossmods">https://www.patreon.com/deadlybossmods</a></p>
+
 # History:
 For longest time, I did not add support or Victory sounds or encounter music because it was already nicely done by a 3rd party addon called DBM-Victory sounds. However, this project seems long abandoned. Additionally, it's high time DBM supported these features built in.
 
