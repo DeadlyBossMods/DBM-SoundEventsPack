@@ -1,7 +1,7 @@
 ## Interface: 110105, 110107
-## Interface-Classic: 11505
+## Interface-Classic: 11507
 ## Interface-Wrath: 30403
-## Interface-Cata: 40401
+## Interface-Cata: 40402
 ## Category: DBM
 
 ## Title:|cffffe00a<|r|cffff7d0aDBM Media|r|cffffe00a>|r |cff308530Sound Events Pack|r
