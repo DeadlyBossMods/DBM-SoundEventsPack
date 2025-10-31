@@ -1,5 +1,5 @@
 ## Interface: 110205, 110207, 120000
-## Interface-Classic: 11507
+## Interface-Classic: 11508
 ## Interface-Wrath: 30403
 ## Interface-Mists: 50502
 ## Category: DBM
