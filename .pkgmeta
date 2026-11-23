@@ -1,5 +1,8 @@
 package-as: DBM-SoundEventsPack
 enable-nolib-creation: no
 
+required-dependencies:
+  - deadly-boss-mods
+
 move-folders:
   DBM-SoundEventsPack/DBM-SoundEventsPack: DBM-SoundEventsPack
