@@ -142,61 +142,74 @@ function DBMMPSoundEventsPack() -- Register Music to DBM.Music Table
 	if inserted3 then
 		return
 	end
-	-- All Music Table
+	-- All Music Table; durations are in seconds, measured from the bundled audio files.
 	insert(DBM.Music, {
 		text	= "FFVII: Boss Battle",
-		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_FinalFantasy.ogg"
+		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_FinalFantasy.ogg",
+		duration = 212.192653
 	})
 	insert(DBM.Music, {
 		text	= "FFX: Boss Battle",
-		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_FinalFantasyX.ogg"
+		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_FinalFantasyX.ogg",
+		duration = 162.742857
 	})
 	insert(DBM.Music, {
 		text	= "SMB: Stage",
-		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioBros.ogg"
+		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioBros.ogg",
+		duration = 88.502857
 	})
 	insert(DBM.Music, {
 		text	= "SMB3: Stage",
-		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioBros3.ogg"
+		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioBros3.ogg",
+		duration = 66.220408
 	})
 	insert(DBM.Music, {
 		text	= "SMRPG: Boss Battle",
-		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioRPG_Boss.ogg"
+		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioRPG_Boss.ogg",
+		duration = 51.200000
 	})
 	insert(DBM.Music, {
 		text	= "SMW: Stage",
-		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioWorld.ogg"
+		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioWorld.ogg",
+		duration = 92.539841
 	})
 	insert(DBM.Music, {
 		text	= "Super Metroid: Ridley",
-		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMetroidRidley.ogg"
+		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMetroidRidley.ogg",
+		duration = 27.010612
 	})
 	insert(DBM.Music, {
 		text	= "WingCommander",
-		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_WingCommander.ogg"
+		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_WingCommander.ogg",
+		duration = 170.480000
 	})
 	insert(DBM.Music, {
 		text	= "Blakbyrd",
-		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Blackbyrd.ogg"
+		value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Blackbyrd.ogg",
+		duration = 167.000000
 	})
 
 	-- Dungeon BGM Table
 	if DBM.DungeonMusic then
 		insert(DBM.DungeonMusic, {
 			text	= "SMB: Stage",
-			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioBros.ogg"
+			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioBros.ogg",
+			duration = 88.502857
 		})
 		insert(DBM.DungeonMusic, {
 			text	= "SMB3: Stage",
-			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioBros3.ogg"
+			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioBros3.ogg",
+			duration = 66.220408
 		})
 		insert(DBM.DungeonMusic, {
 			text	= "SMW: Stage",
-			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioWorld.ogg"
+			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioWorld.ogg",
+			duration = 92.539841
 		})
 		insert(DBM.DungeonMusic, {
 			text	= "Blakbyrd",
-			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Blackbyrd.ogg"
+			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Blackbyrd.ogg",
+			duration = 167.000000
 		})
 	end
 
@@ -204,23 +217,28 @@ function DBMMPSoundEventsPack() -- Register Music to DBM.Music Table
 	if DBM.BattleMusic then
 		insert(DBM.BattleMusic, {
 			text	= "FFVII: Boss Battle",
-			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_FinalFantasy.ogg"
+			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_FinalFantasy.ogg",
+			duration = 212.192653
 		})
 		insert(DBM.BattleMusic, {
 			text	= "FFX: Boss Battle",
-			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_FinalFantasyX.ogg"
+			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_FinalFantasyX.ogg",
+			duration = 162.742857
 		})
 		insert(DBM.BattleMusic, {
 			text	= "SMRPG: Boss Battle",
-			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioRPG_Boss.ogg"
+			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMarioRPG_Boss.ogg",
+			duration = 51.200000
 		})
 		insert(DBM.BattleMusic, {
 			text	= "Super Metroid: Ridley",
-			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMetroidRidley.ogg"
+			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_SuperMetroidRidley.ogg",
+			duration = 27.010612
 		})
 		insert(DBM.BattleMusic, {
 			text	= "WingCommander",
-			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_WingCommander.ogg"
+			value	= "Interface\\AddOns\\DBM-SoundEventsPack\\Music\\Music_WingCommander.ogg",
+			duration = 170.480000
 		})
 	end
 	inserted3 = true
