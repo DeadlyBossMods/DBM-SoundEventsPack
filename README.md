@@ -11,5 +11,10 @@ Additionally, I hope many download this template and learn to make their own Eve
 # Installation:
 Just install this with your addon client, or download and unzip and drop the DBM-EventSoundPack folder directly into addons folder and DBM-Core version 7.3.24 or higher will be able to detect and add media to Event Sound Options automatically. After that, just configure how you want.
 
+## Music pack authors:
+Set `length` to the track duration in seconds on each entry in `DBM.Music`, `DBM.DungeonMusic`, and `DBM.BattleMusic`. For the `AddMusic`, `AddDungeonMusic`, and `AddBattleMusic` APIs, pass the duration as the third argument. Tracks without a positive length are excluded from Random when automatic song changes are enabled; they remain available otherwise.
+
+To measure a bundled audio file, run `ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "path/to/song.ogg"`.
+
 ## Additional Note:
 Some of music is volume boosted heavily. The media from Victory Sounds was just recorded that way. I tried to normalize it with online tools but it's still too loud compared to other media. This will result in inconsistent volumes between some of music selections. Some of them will play at proper volume like some of the SMG audio that's coming soon, while some of these will be so blaring loud that you'll find yourself having to turn down audio. If anyone with better tools than free online ones wants to help fix this issue, please get in touch.
